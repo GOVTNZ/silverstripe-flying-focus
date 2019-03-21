@@ -1,5 +1,7 @@
 <?php
 
+namespace JoshKosmala\SilverStripe;
+
 use SilverStripe\Core\Extension;
 use SilverStripe\View\Requirements;
 

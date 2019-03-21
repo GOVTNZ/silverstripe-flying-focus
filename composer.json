@@ -15,9 +15,20 @@
   "require": {
     "silverstripe/cms": "^4"
   },
+  "autoload": {
+      "psr-4": {
+          "JoshKosmala\\SilverStripe\\": "src/"
+      }
+  },
+  "scripts": {
+    "lint": "phpcs --extensions=php src/"
+  },
   "extra": {
     "expose": [
         "client"
-    ]
+    ],
+    "branch-alias": {
+        "dev-master": "2.x-dev"
+    }
   }
 }
