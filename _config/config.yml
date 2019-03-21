@@ -1,7 +1,7 @@
 ---
-Name: Flying Focus
+Name: FlyingFocus
 ---
 
-ContentController:
+SilverStripe\CMS\Controllers\ContentController:
   extensions:
-    - FlyingFocusExtension
+    - JoshKosmala\FlyingFocus\ControllerExtension
